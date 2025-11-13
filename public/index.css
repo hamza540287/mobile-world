@@ -240,7 +240,7 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
   background: linear-gradient(to right, rgb(0, 195, 255), rgb(246, 24, 246));
   box-shadow: 0px 0px 8px white;
 
@@ -305,4 +305,108 @@ form {
 .textar {
   position: relative;
   left: -83px;
+}
+.footer {
+  margin-top: 4px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, rgb(0, 195, 255), rgb(246, 24, 246));
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.item-list > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ul li {
+  list-style: none;
+}
+.del-partner > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product {
+  font-weight: bold;
+  font-size: 24px;
+}
+.social-media > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.fa {
+  font-size: 25px;
+  padding: 5px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.fa-facebook {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+.fa-facebook:hover {
+  background-color: #3b5998;
+}
+.fa-twitter {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+.fa-twitter:hover {
+  background-color: #55acee;
+}
+.fa-youtube {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+.fa-youtube:hover {
+  background-color: #bb0000;
+}
+.fa-instagram {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+.fa-instagram:hover {
+  background: linear-gradient(to bottom, purple, pink, orange);
+}
+
+.fa-linkedin {
+  background-color: black;
+  color: white;
+  transition: background-color 0.4s ease;
+}
+.fa-linkedin:hover {
+  background-color: #007bb5;
+}
+.fa-snapchat-ghost {
+  background-color: black;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  transition: background-color 0.4s ease;
+}
+.fa-snapchat-ghost:hover {
+  background: #fffc00;
+}
+.ham {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 10px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.name {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
